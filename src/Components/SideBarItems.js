@@ -3,7 +3,7 @@ import React from 'react'
 const SideBarItems = () => {
   return (
     <div>
-      <span>card component</span>
+      <span>SideBarItems component</span>
     </div>
   )
 }

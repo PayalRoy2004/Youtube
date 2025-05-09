@@ -5,8 +5,8 @@ import UserIcon from "./UserIcon";
 
 const Head =()=>{
     return(
-        <div>
-            <span>card component</span>
+        <div className="flex items-center">
+            
             <Hamburger/>
             <Logo/>
             <SearchBar/>
