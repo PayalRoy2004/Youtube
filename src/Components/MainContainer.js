@@ -2,7 +2,7 @@
 import InnerContainer from "./InnerContainer";
 import SideBar from "./SideBar";
 
-const MainConrainer =()=>{
+const MainContainer =()=>{
     return(
         <div className="flex">
             <SideBar/>
@@ -11,4 +11,4 @@ const MainConrainer =()=>{
     )
 }
 
-export default MainConrainer;
+export default MainContainer;
