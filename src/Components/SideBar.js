@@ -1,18 +1,22 @@
 import SideBarItems from "./SideBarItems";
-
+import { Link } from "react-router-dom";
 const SideBar =()=>{
     return(
         <div className="h-80 w-1/5 bg-red-400">
             
             <ul>
                 <li>
-                    Home
+                   <Link to="/"> Home</Link>
                 </li>
                 <li>
-                    Sports
+                   <Link to ="/history"> History</Link>
                 </li>
                 <li>
-                    News
+                    <Link to="/watch"> Watch</Link>
+                </li>
+                <li>
+                    <Link to="/demo"> Demo</Link>
+                   
                 </li>
             </ul>
             <SideBarItems/>
