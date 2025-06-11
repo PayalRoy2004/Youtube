@@ -29,7 +29,7 @@ const InnerContainer =()=>{
                         return(
                             <Link to={"/watch?v="+items.id}>
                             <Cards data={items} key={items.id}/> 
-                            </Link>
+                            </Link>         
                         )
                     })
                 }

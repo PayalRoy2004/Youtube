@@ -2,8 +2,8 @@ import './App.css';
 import MainContainer from './Components/MainContainer';
 import Head from './Components/Head';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Shimmer from './Components/Shimmer';
 import InnerContainer from './Components/InnerContainer';
+import WatchPage from './Components/WatchPage';
 function App() {
   const appRouter = createBrowserRouter([
   { path: "/", 
@@ -21,7 +21,7 @@ function App() {
   
     {
       path:"/watch",
-      element: <h1>This is watch page</h1>
+      element: <WatchPage />
     },
 
   ]
