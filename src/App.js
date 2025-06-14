@@ -7,7 +7,10 @@ import WatchPage from './Components/WatchPage';
 function App() {
   const appRouter = createBrowserRouter([
   { path: "/", 
-    element: <MainContainer/>,
+    element: <>
+      <Head/>
+      <MainContainer/>
+    </>,
     children:[
     {
       path: "/", 
@@ -34,7 +37,7 @@ function App() {
 ]);
   return (
     <div>
-      <Head/>
+    
       <RouterProvider router={appRouter}/>
     </div>
   );
